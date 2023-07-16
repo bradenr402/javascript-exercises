@@ -11,6 +11,7 @@ const convertToFahrenheit = function(celsiusTemp) {
     let tempToFahrenheit = (celsiusTemp * 9/5 + 32);
     return (Math.round(tempToFahrenheit * 10) / 10);
 };
+
 // Do not edit below this line
 module.exports = {
     convertToCelsius,
